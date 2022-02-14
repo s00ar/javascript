@@ -15,7 +15,7 @@ alert(nombreLargo); */
 const charObject = {};
 
 
-//OPCION 1 NO ME GUSTA DEL TODO
+//OPCION 1 AHORA SI ME COPA
 function countCharacters(names) {
     for (let index = 0; index < names.length; index++) { //ITERA EL ARRAY
 
@@ -29,13 +29,13 @@ function countCharacters(names) {
         //alert(JSON.stringify(charObject)); ACÁ TENGO UN PROBLEMA YA QUE NO ME MUESTRA EL NOMBRE DE LA PROPIEDAD PERO SI SU VALOR
 
         // UNA VEZ SOLUCIONADO LO ANTERIOR ESTO NO FUE MAS NECESARIO PQ EL CONSOLE LOG ME MOSTRABA LOS VALORES BIEN
-        if (index != (names.length)) { //PERO DE ESTA MANERA SI ME MUESTRA LOS VALORES DE LAS PROPIEDADES Y SU NOMBRE
+        /*if (index != (names.length)) { //PERO DE ESTA MANERA SI ME MUESTRA LOS VALORES DE LAS PROPIEDADES Y SU NOMBRE
             console.log(nombre + ": " +
                 nombreLargo + ", ");
         } else {
             console.log(nombre + ": " +
                 nombreLargo);
-        }
+        }*/
     }
 
     console.log(charObject);
