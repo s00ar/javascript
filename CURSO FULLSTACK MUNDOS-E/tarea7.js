@@ -28,6 +28,11 @@ console.log(namesLength);
 const namesToString = names.join(" ");
 console.log(namesToString);
 
+const filteredNames = names.filter(function(name) {
+    return name.endsWith("a");
+});
+console.log(filteredNames);
+
 const nameWithA = names.filter(function(name) {
     return name.startsWith("A");
 });
